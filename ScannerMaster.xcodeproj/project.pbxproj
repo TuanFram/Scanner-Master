@@ -38,7 +38,7 @@
 		2EDA8E4320EF6A5D003A1534 = {
 			isa = PBXGroup;
 			children = (
-				2EDA8E4E20EF6A5D003A1534 /* Scanner Master */,
+				2EDA8E4E20EF6A5D003A1534 /* ScannerMaster */,
 				2EDA8E4D20EF6A5D003A1534 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EDA8E4E20EF6A5D003A1534 /* Scanner Master */ = {
+		2EDA8E4E20EF6A5D003A1534 /* ScannerMaster */ = {
 			isa = PBXGroup;
 			children = (
 				2EDA8E4F20EF6A5D003A1534 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				2EDA8E5820EF6A5F003A1534 /* LaunchScreen.storyboard */,
 				2EDA8E5B20EF6A5F003A1534 /* Info.plist */,
 			);
-			path = "Scanner Master";
+			path = ScannerMaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2EDA8E4720EF6A5D003A1534 /* Build configuration list for PBXProject "Scanner Master" */;
+			buildConfigurationList = 2EDA8E4720EF6A5D003A1534 /* Build configuration list for PBXProject "ScannerMaster" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -283,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBE5S5T3FV;
 				INFOPLIST_FILE = "Scanner Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBE5S5T3FV;
 				INFOPLIST_FILE = "Scanner Master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EDA8E4720EF6A5D003A1534 /* Build configuration list for PBXProject "Scanner Master" */ = {
+		2EDA8E4720EF6A5D003A1534 /* Build configuration list for PBXProject "ScannerMaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EDA8E5C20EF6A5F003A1534 /* Debug */,
